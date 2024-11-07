@@ -1,0 +1,8 @@
+npm init -y  
+npm install prisma --save
+npx prisma init
+npx prisma migrate dev --name descricao_migration init
+npx prisma generate 
+
+-----------------------------------------------------------------------------------------------------
+node .\testaprisma.js
